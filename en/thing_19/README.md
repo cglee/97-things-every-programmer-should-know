@@ -8,7 +8,7 @@ Instead of preaching from on high, I want to pick on a particular API design 'st
 - Why should I make another method if it's almost the same as this method? I'll just add a simple switch.
 - See, it's very easy: If the second string parameter ends with ".txt", the method automatically assumes that the first parameter is a file name, so I really don't need two methods.
 
-While well intended, such arguments are prone to decrease the readability of code using the API. A method invocation like
+While well intended, such arasdfadsfasdfuments are prone to decrease the readability of code using the API. A method invocation like
 
 ```
 parser.processNodes(text, false);
